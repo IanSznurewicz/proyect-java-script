@@ -1,0 +1,8 @@
+@mixin variables ($decoracion, $color) {
+    text-decoration: $decoracion;
+    color: $color;
+}
+
+@mixin decoration ($decoration){
+    text-decoration: $decoration;
+}

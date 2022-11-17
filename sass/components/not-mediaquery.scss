@@ -1,0 +1,177 @@
+    /*List Style Type*/
+    ul {
+        list-style-type: none;
+    }
+        /*Lis Style Type*/
+
+        /*----------------------------------------------------------------------------- Inicio Header ----------------------------------------------------------------------------*/  
+        /* Botton Secciones*/
+    #header-secciones-button:hover {
+        @extend %bottons-header
+    }
+
+    #header-secciones-button:active {
+        border: none;
+    }
+        /* Botton Secciones*/
+
+    #header-secciones a:hover {
+        transform: translateY(2px);
+        @extend %bottons-header
+    }
+
+    #header-secciones a:active {
+        transition: all 0.2s;
+        border-top: solid white 2px;
+        border-bottom: solid white 2px;
+        border-radius: 25%;
+        padding: 2px;
+        @include variables(none, #ff6a00)
+    }
+
+
+        /* Header Active */
+    #header-active a {
+        transition: all 2s ease-in-out;
+        @include variables(overline white, #ff6a00)
+    }
+
+    #header-active a:hover{
+        transition:all 0.8s;
+        transform: translateY(2px);
+    }
+        /* Header Active */
+
+
+        /*Secciones / colores*/
+    #header-color-secciones {
+        color: black;
+    }
+
+    #header-color-secciones:hover {
+        @include variables(none, #ff6a00)
+    }
+
+    
+    #header-color-secciones:active{
+        transform: translateY(3px);
+        transition: all 0.1s ease-in-out;
+        background-color: white;
+    }
+        /*Seccion / colores*/
+        /*Final header index / SECCIONES*/
+
+
+        /*Inicio estilo Fonts "Hedaer"*/
+    .estilo-font{
+        font-family: 'Nunito', sans-serif;
+    }
+        /*Final estilo Fonts "Hedaer"*/
+        /*---------------------------------------------------------------------------- Final Header ----------------------------------------------------------------------------*/  
+
+
+            
+        /*-------------------------------------------------------------Inicio "Registro" / inicio de sesion----------------------------------------------------------------------*/  
+    .formulario-registro a{
+        @include variables(line-through 2px #ff6a00, white)
+    }
+
+    .formulario-registro a:hover {
+        @include decoration(underline 2px #ed620c)
+    }
+
+    #span-terminos-condiciones-1, #span-terminos-condiciones-2{
+        color: #050405;
+    }
+        /*Inicio Registro correcto*/
+    .registro-correcto {
+        position: absolute;
+    }    
+
+    .registro-correcto ul {
+        list-style-type: none;
+    }
+        /*Final Registro correcto*/
+        /*---------------------------------------------------------------Final "Registro" / inicio de sesion----------------------------------------------------------------------*/  
+
+
+
+        /*--------------------------------------------------------------------------Footer----------------------------------------------------------------------------------------*/  
+    #redes-sociales a:hover {
+        transition: all 2s;
+        @include decoration(underline #ed620c 1px)
+    }
+
+    #instagram {
+        @include variables(none, white)
+    }
+
+    #logo-intagram:hover {
+        transition: all 2s;
+        transform:translateX(100px);
+    }
+
+    #facebook{
+        @include variables(none, white)
+    }
+        /*--------------------------------------------------------------------------Footer----------------------------------------------------------------------------------------*/  
+
+
+
+        /*-------------------------------------------------------------------------Inicio Contactos-------------------------------------------------------------------------------*/
+    .container-div-contactos {
+        display: flex;
+    }
+
+    .parrafo-contactos ol {
+        list-style-type: none;
+    }
+        /*-------------------------------------------------------------------------Final Contactos--------------------------------------------------------------------------------*/
+
+
+
+        /*--------------------------------------------------------------------------- Selection ----------------------------------------------------------------------------------*/
+    i::selection {
+        @extend %selection
+    }
+    
+    p::selection {
+        @extend %selection
+    }
+    
+    li::selection {
+        @extend %selection
+    }
+    
+    a::selection {
+        @extend %selection
+    }
+    
+    img::selection {
+        @extend %selection
+    }
+    
+    h1::selection {
+        @extend %selection
+    }
+    
+    h2::selection {
+        @extend %selection
+    }
+    
+    h3::selection {
+        @extend %selection
+    }
+    
+    h4::selection {
+        @extend %selection
+    }
+    
+    h5::selection {
+        @extend %selection
+    }
+    
+    h6::selection {
+        @extend %selection
+    }
+        /*--------------------------------------------------------------------------- Selection ----------------------------------------------------------------------------------*/

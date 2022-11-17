@@ -1,0 +1,670 @@
+                                                                                        /*TELEFONO*/
+@media only screen and (max-width: 500px) {
+
+    /*------------------------------------------------------Formularios---------------------------------------------------------------*/  
+        /*---------------------------------------------------Inicio Formulario Contactos----------------------------------------------*/
+    #formulario-contactos {
+        display: flex;
+        position: absolute;
+        padding-left: 1200px;
+        padding-right: 420px;
+        order: 2;
+        margin-left: 145px;
+        padding-bottom: 500px;
+        border-style:outset;
+        border-color: black;
+
+    }
+
+    #formulario-contactos-0 {
+        position: absolute;
+        margin-top: 160px;
+        margin-left: -890px;
+    }
+
+        /*Inicio Inputs*/
+    #input-1-contactos {
+        display: flex;
+        align-items: center;
+        padding-left: 400px;
+        padding-right: 400px;
+    }
+
+    .input-1-contactos-2 {
+        padding: 8px;
+        border-radius: 8px;
+        margin-bottom: 5px;
+        border-color:#ff6a00;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        color: black;
+    }
+    
+    #input-2-contactos {
+        font-size: 35px;
+        position: absolute;
+        padding-left: 700px;
+        padding-right: 700px;
+        margin-left: -250px;
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .input-2-contactos-2 {
+        background-color: #ff6a00;
+        border-radius: 4px;
+        border-color:#ff6a00;
+        padding: 0px;
+        color: black;
+    }
+        /*Final Inputs*/
+
+    #formulario-contactos-0 h2 {
+        font-size: 60px;
+        position: absolute;
+        margin-top: -160px;
+        margin-left: 360px;
+        font-family: 'Boogaloo', cursive;
+        font-family: 'Permanent Marker', cursive;
+        font-family: 'Source Code Pro', monospace;
+    }
+        /*------------------------------------------------Final Formulario Contactos--------------------------------------------------*/
+
+        /*---------------------------------------------------Inicio Formulario Envios-------------------------------------------------*/
+        #formulario-envios {
+            display: flex;
+            position: absolute;
+            padding-left: 1200px;
+            padding-right: 420px;
+            order: 2;
+            margin-left: 150px;
+            padding-bottom: 500px;
+            border-style:outset;
+            border-color: black;
+        }
+
+        #formulario-envios-0 {
+            margin-left: -890px;
+            margin-top: 150px;
+        }
+        
+            /*Inicio Inputs*/   
+        #input-1-envios {
+            margin-left: 10px;
+            padding-left: 400px;
+            padding-right: 400px;
+        }
+        
+        #input-2-envios {
+            font-size: 20px;
+            position: absolute;
+            padding-left: 650px;
+            padding-right: 650px;
+            margin-left: -1210px;
+            margin-top: 100px;
+            text-align: center;
+        }
+
+        #formulario-envios-0 {
+            #input-2-contactos{
+                margin-top: 100px;
+                margin-left: -1260px;
+            }
+        }
+            /*Final Inputs*/
+        
+        .formulario-contactos-0 h2 {
+            position: absolute;
+            font-size: 20px;
+            margin-top: -150px;
+            margin-left: 300px;
+        }
+
+        #parrafo-formulario-envios {
+            width: 250px;
+            z-index: 1;
+            padding: 30px;
+            background-color: black;
+            border-radius: 100%;
+            border: solid #ed620c;
+            position: absolute;
+            margin-top: 190px;
+            margin-left: 1500px;
+            color: white;
+            text-align: center;
+            display: inline;
+            font-family: 'Boogaloo', cursive;
+            font-family: 'Permanent Marker', cursive;
+        }
+
+
+        #formulario-envios-enviado {
+            margin-left: 240px;
+        }
+
+
+        #footer-envios {
+            margin-top: 840px;
+        }
+        /*------------------------------------------------Final Formulario Envios-----------------------------------------------------*/
+
+
+        /*-------------------------------------------Inicio "Registro" / inicio de sesion---------------------------------------------*/  
+    .formulario-registro{
+        width: 330px;
+        background-color:#000000ee;
+        padding: 20px;
+        margin: auto;
+        margin-top: 150px;
+        border-radius: 7px;
+        font-family: Arial, Helvetica, sans-serif;
+        box-shadow: 18px 14px 30px, -18px 14px 30px, -18px -14px 30px, 18px -14px 30px;
+        height: 400px;
+    }
+
+    .formulario-registro h2 {
+        font-size: 40px;
+        color: azure;
+        text-decoration:underline;
+        line-height: 70px;
+        text-align: center;
+        font-family: 'Boogaloo', cursive;
+        font-family: 'Permanent Marker', cursive;
+        font-family: 'Source Code Pro', monospace;
+    }
+
+        /*Inicio Inputs*/
+    .input-1 {
+        width: 320px;
+        padding: 5px;
+        border-radius: 7px;
+        margin-bottom: 5px;
+        border-color:#ff6a00;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        color: black;
+    }
+
+    .input-2{
+        width: 90px;
+        background-color: #ff6a00;
+        border-radius: 4px;
+        border-color:#ff6a00;
+        padding: 2px;
+        color: black;
+    }
+        /*Final Inputs*/
+
+    .formulario-registro p {
+        width: 250px;
+        font-family: 'Boogaloo', cursive;
+        font-family: 'Permanent Marker', cursive;
+        color: white;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+        /*Icono Index / conexion "Registro"*/
+    .icono-registro {
+        width: 65px;
+        height: 58px;
+        margin-left: 310px;
+        margin-top: -600px;
+        position:absolute;
+        border: solid black 1.5px;
+        border-radius: 100%;
+        padding: 10px;
+        background-color: white;
+    }
+        /*Icono Index / conexion "Registro"*/
+        /*-------------------------------------------Final "Registro" / inicio de sesion----------------------------------------------*/  
+    /*------------------------------------------------------Formularios---------------------------------------------------------------*/  
+}
+                                                                                        /*TELEFONO*/
+
+@media only screen and (min-width: 501px) and (max-width: 980px) {
+
+
+    /*------------------------------------------------------Formularios---------------------------------------------------------------*/  
+        /*---------------------------------------------------Inicio Formulario Contactos----------------------------------------------*/
+    #formulario-contactos {
+        display: flex;
+        position: absolute;
+        padding-left: 1200px;
+        padding-right: 420px;
+        order: 2;
+        margin-left: 145px;
+        padding-bottom: 500px;
+        border-style:outset;
+        border-color: black;
+
+    }
+
+    #formulario-contactos-0 {
+        position: absolute;
+        margin-top: 160px;
+        margin-left: -890px;
+    }
+
+        /*Inicio Inputs*/
+    #input-1-contactos {
+        display: flex;
+        align-items: center;
+        padding-left: 400px;
+        padding-right: 400px;
+    }
+
+    .input-1-contactos-2 {
+        padding: 8px;
+        border-radius: 8px;
+        margin-bottom: 5px;
+        border-color:#ff6a00;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        color: black;
+    }
+    
+    #input-2-contactos {
+        font-size: 35px;
+        position: absolute;
+        padding-left: 700px;
+        padding-right: 700px;
+        margin-left: -250px;
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .input-2-contactos-2 {
+        background-color: #ff6a00;
+        border-radius: 4px;
+        border-color:#ff6a00;
+        padding: 0px;
+        color: black;
+    }
+        /*Final Inputs*/
+
+    #formulario-contactos-0 h2 {
+        font-size: 60px;
+        position: absolute;
+        margin-top: -160px;
+        margin-left: 360px;
+        font-family: 'Boogaloo', cursive;
+        font-family: 'Permanent Marker', cursive;
+        font-family: 'Source Code Pro', monospace;
+    }
+        /*------------------------------------------------Final Formulario Contactos--------------------------------------------------*/
+
+        /*---------------------------------------------------Inicio Formulario Envios-------------------------------------------------*/
+        #formulario-envios {
+            display: flex;
+            position: absolute;
+            padding-left: 1200px;
+            padding-right: 420px;
+            order: 2;
+            margin-left: 150px;
+            padding-bottom: 500px;
+            border-style:outset;
+            border-color: black;
+        }
+
+        #formulario-envios-0 {
+            margin-left: -890px;
+            margin-top: 150px;
+        }
+        
+            /*Inicio Inputs*/   
+        #input-1-envios {
+            margin-left: 10px;
+            padding-left: 400px;
+            padding-right: 400px;
+        }
+        
+        #input-2-envios {
+            font-size: 20px;
+            position: absolute;
+            padding-left: 650px;
+            padding-right: 650px;
+            margin-left: -1210px;
+            margin-top: 100px;
+            text-align: center;
+        }
+
+        #formulario-envios-0 {
+            #input-2-contactos{
+                margin-top: 100px;
+                margin-left: -1260px;
+            }
+        }
+            /*Final Inputs*/
+        
+        .formulario-contactos-0 h2 {
+            position: absolute;
+            font-size: 20px;
+            margin-top: -150px;
+            margin-left: 300px;
+        }
+
+        #parrafo-formulario-envios {
+            width: 250px;
+            z-index: 1;
+            padding: 30px;
+            background-color: black;
+            border-radius: 100%;
+            border: solid #ed620c;
+            position: absolute;
+            margin-top: 190px;
+            margin-left: 1500px;
+            color: white;
+            text-align: center;
+            display: inline;
+            font-family: 'Boogaloo', cursive;
+            font-family: 'Permanent Marker', cursive;
+        }
+
+
+        #formulario-envios-enviado {
+            margin-left: 240px;
+        }
+
+
+        #footer-envios {
+            margin-top: 840px;
+        }
+        /*------------------------------------------------Final Formulario Envios-----------------------------------------------------*/
+
+
+        /*-------------------------------------------Inicio "Registro" / inicio de sesion---------------------------------------------*/  
+    .formulario-registro{
+        width: 330px;
+        background-color:#000000ee;
+        padding: 20px;
+        margin: auto;
+        margin-top: 150px;
+        border-radius: 7px;
+        font-family: Arial, Helvetica, sans-serif;
+        box-shadow: 18px 14px 30px, -18px 14px 30px, -18px -14px 30px, 18px -14px 30px;
+        height: 400px;
+    }
+
+    .formulario-registro h2 {
+        font-size: 40px;
+        color: azure;
+        text-decoration:underline;
+        line-height: 70px;
+        text-align: center;
+        font-family: 'Boogaloo', cursive;
+        font-family: 'Permanent Marker', cursive;
+        font-family: 'Source Code Pro', monospace;
+    }
+
+        /*Inicio Inputs*/
+    .input-1 {
+        width: 320px;
+        padding: 5px;
+        border-radius: 7px;
+        margin-bottom: 5px;
+        border-color:#ff6a00;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        color: black;
+    }
+
+    .input-2{
+        width: 90px;
+        background-color: #ff6a00;
+        border-radius: 4px;
+        border-color:#ff6a00;
+        padding: 2px;
+        color: black;
+    }
+        /*Final Inputs*/
+
+    .formulario-registro p {
+        width: 250px;
+        font-family: 'Boogaloo', cursive;
+        font-family: 'Permanent Marker', cursive;
+        color: white;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+        /*Icono Index / conexion "Registro"*/
+    .icono-registro {
+        width: 75px;
+        height: 66px;
+        margin-left: 400px;
+        margin-top: -470px;
+        position:absolute;
+        border: solid black 1.5px;
+        border-radius: 100%;
+        padding: 10px;
+        background-color: white;
+    }
+        /*Icono Index / conexion "Registro"*/
+                /*-------------------------------------------Final "Registro" / inicio de sesion----------------------------------------------*/  
+            /*------------------------------------------------------Formularios---------------------------------------------------------------*/  
+}
+
+                                                                                        /*ESCRITORIO*/
+@media only screen and (min-width: 991px) {
+    /*------------------------------------------------------Formularios---------------------------------------------------------------*/  
+        /*---------------------------------------------------Inicio Formulario Contactos----------------------------------------------*/
+        #formulario-contactos {
+            display: flex;
+            position: absolute;
+            padding-left: 1200px;
+            padding-right: 420px;
+            order: 2;
+            margin-left: 145px;
+            padding-bottom: 500px;
+            border-style:outset;
+            border-color: black;
+    
+        }
+    
+        #formulario-contactos-0 {
+            position: absolute;
+            margin-top: 160px;
+            margin-left: -890px;
+        }
+    
+            /*Inicio Inputs*/
+        #input-1-contactos {
+            display: flex;
+            align-items: center;
+            padding-left: 400px;
+            padding-right: 400px;
+        }
+    
+        .input-1-contactos-2 {
+            padding: 8px;
+            border-radius: 8px;
+            margin-bottom: 5px;
+            border-color:#ff6a00;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            color: black;
+        }
+        
+        #input-2-contactos {
+            font-size: 35px;
+            position: absolute;
+            padding-left: 700px;
+            padding-right: 700px;
+            margin-left: -250px;
+            margin-top: 50px;
+            text-align: center;
+        }
+    
+        .input-2-contactos-2 {
+            background-color: #ff6a00;
+            border-radius: 4px;
+            border-color:#ff6a00;
+            padding: 0px;
+            color: black;
+        }
+            /*Final Inputs*/
+    
+        #formulario-contactos-0 h2 {
+            font-size: 60px;
+            position: absolute;
+            margin-top: -160px;
+            margin-left: 360px;
+            font-family: 'Boogaloo', cursive;
+            font-family: 'Permanent Marker', cursive;
+            font-family: 'Source Code Pro', monospace;
+        }
+            /*------------------------------------------------Final Formulario Contactos--------------------------------------------------*/
+    
+            /*---------------------------------------------------Inicio Formulario Envios-------------------------------------------------*/
+            #formulario-envios {
+                display: flex;
+                position: absolute;
+                padding-left: 1200px;
+                padding-right: 420px;
+                order: 2;
+                margin-left: 150px;
+                padding-bottom: 500px;
+                border-style:outset;
+                border-color: black;
+            }
+    
+            #formulario-envios-0 {
+                margin-left: -890px;
+                margin-top: 150px;
+            }
+            
+                /*Inicio Inputs*/   
+            #input-1-envios {
+                margin-left: 10px;
+                padding-left: 400px;
+                padding-right: 400px;
+            }
+            
+            #input-2-envios {
+                font-size: 20px;
+                position: absolute;
+                padding-left: 650px;
+                padding-right: 650px;
+                margin-left: -1210px;
+                margin-top: 100px;
+                text-align: center;
+            }
+    
+            #formulario-envios-0 {
+                #input-2-contactos{
+                    margin-top: 100px;
+                    margin-left: -1260px;
+                }
+            }
+                /*Final Inputs*/
+            
+            .formulario-contactos-0 h2 {
+                position: absolute;
+                font-size: 20px;
+                margin-top: -150px;
+                margin-left: 300px;
+            }
+    
+            #parrafo-formulario-envios {
+                width: 250px;
+                z-index: 1;
+                padding: 30px;
+                background-color: black;
+                border-radius: 100%;
+                border: solid #ed620c;
+                position: absolute;
+                margin-top: 190px;
+                margin-left: 1500px;
+                color: white;
+                text-align: center;
+                display: inline;
+                font-family: 'Boogaloo', cursive;
+                font-family: 'Permanent Marker', cursive;
+            }
+    
+    
+            #formulario-envios-enviado {
+                margin-left: 240px;
+            }
+    
+    
+            #footer-envios {
+                margin-top: 840px;
+            }
+            /*------------------------------------------------Final Formulario Envios-----------------------------------------------------*/
+    
+    
+            /*-------------------------------------------Inicio "Registro" / inicio de sesion---------------------------------------------*/  
+        .formulario-registro{
+            width: 330px;
+            background-color:#000000ee;
+            padding: 20px;
+            margin: auto;
+            margin-top: 150px;
+            border-radius: 7px;
+            font-family: Arial, Helvetica, sans-serif;
+            box-shadow: 18px 14px 30px, -18px 14px 30px, -18px -14px 30px, 18px -14px 30px;
+            height: 400px;
+        }
+    
+        .formulario-registro h2 {
+            font-size: 40px;
+            color: azure;
+            text-decoration:underline;
+            line-height: 70px;
+            text-align: center;
+            font-family: 'Boogaloo', cursive;
+            font-family: 'Permanent Marker', cursive;
+            font-family: 'Source Code Pro', monospace;
+        }
+    
+            /*Inicio Inputs*/
+        .input-1 {
+            width: 320px;
+            padding: 5px;
+            border-radius: 7px;
+            margin-bottom: 5px;
+            border-color:#ff6a00;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            color: black;
+        }
+    
+        .input-2{
+            width: 90px;
+            background-color: #ff6a00;
+            border-radius: 4px;
+            border-color:#ff6a00;
+            padding: 2px;
+            color: black;
+        }
+            /*Final Inputs*/
+    
+        .formulario-registro p {
+            width: 250px;
+            font-family: 'Boogaloo', cursive;
+            font-family: 'Permanent Marker', cursive;
+            color: white;
+            font-size: 14px;
+            line-height: 20px;
+        }
+    
+            /*Icono Index / conexion "Registro"*/
+        .icono-registro {
+            width: 80px;
+            height: 71px;
+            margin-left: 1770px;
+            margin-top: -400px;
+            position:absolute;
+            border: solid black 1.5px;
+            border-radius: 100%;
+            padding: 10px;
+            background-color: white;
+        }
+            /*Icono Index / conexion "Registro"*/
+
+                    /*-------------------------------------------Final "Registro" / inicio de sesion----------------------------------------------*/  
+                /*------------------------------------------------------Formularios---------------------------------------------------------------*/  
+}
+                                                                                        /*ESCRITORIO*/

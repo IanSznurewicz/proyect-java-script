@@ -1,0 +1,660 @@
+
+                                                                                    /*TELEFONO*/
+@media only screen and (max-width: 500px) {
+
+    /*------------------------------------------------------Inicio Index----------------------------------------------------------*/ 
+    .parrafo-index{
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 80px;
+        margin-top: 720px;
+    }
+
+        /*Fondo Index*/
+    #body-index {
+        background-image: url("imagenes-css/65806.jpeg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size:cover ;
+        background-attachment: fixed;
+    }
+    /*------------------------------------------------------Final Index----------------------------------------------------------*/  
+
+
+/*------------------------------------------------------------Secciones-----------------------------------------------------------*/
+    /*------------------------------------------------------Inicio Recomendaciones-----------------------------------------------*/  
+    #recomendaciones {
+        background-color: white;
+        padding: 100px 0px 200px 0px;
+        border-top: solid black 4px;
+        border-bottom: solid black 4px;
+        margin-top:335px ;
+    }
+
+    #recomendaciones-2 {
+        margin-top: -500px;
+        margin-left: 130px;
+    }
+
+    #h1-recomendaciones {
+        font-size: 25px;
+        color: black;
+        position:absolute;
+        margin-top: 820px;
+        margin-left: -40px;
+        text-decoration:overline #ff6a00;
+    }
+
+    #imagen-recomendaciones-1 {
+        position: absolute;
+        width: 40%;
+        border: solid black 3px;
+        border-radius: 10px;
+        padding-top: 3px;
+        background-color: white;
+        margin-top: 660px;
+        margin-left: -80px;
+    }
+
+    #imagen-recomendaciones-1:hover{
+        z-index: 1;
+        transition:all 1s ease-in-out ;
+        transform: scale(1.2);
+    }
+
+    #imagen-recomendaciones-2:hover{
+        z-index: 1;
+        transition:all 1s ease-in-out ;
+        transform: scale(1.2);
+    }
+
+    #imagen-recomendaciones-3:hover{
+        z-index: 1;
+        transition:all 1s ease-in-out ;
+        transform: scale(1.2);
+    }
+
+    #imagen-recomendaciones-4:hover{
+        z-index: 1;
+        transition:all 1s ease-in-out ;
+        transform: scale(1.2);
+    }
+
+    #imagen-recomendaciones-5:hover{
+        z-index: 1;
+        transition:all 1s ease-in-out ;
+        transform: scale(1.2);
+    }
+
+    #imagen-recomendaciones-2 {
+        position: absolute;
+        width: 40%;
+        border: solid black 3px;
+        border-radius: 10px;
+        padding-top: 3px;
+        background-color: white;
+        margin-top: 610px;
+        margin-left: 90px;
+    }
+
+    #parrafo-combos {
+        font-size: 25px;
+        position: absolute;
+        margin-top: 626px;
+        margin-left: -40px;
+        color: black;
+    }
+
+        /*Inicio Platos de comida individuales / compartir*/
+
+    #imagen-recomendaciones-3 {
+        width: 50%;
+        height:90px;
+        border: solid black 3px;
+        border-radius: 10px;
+        padding-top: 3px;
+        background-color: white;
+        margin-top: 1090px;
+        margin-left: -100px;
+    }
+
+    #imagen-recomendaciones-4 {
+        position: absolute;
+        width: 45%;
+        height: 150px;
+        border: solid black 3px;
+        border-radius: 10px;
+        margin-top: 1060px;
+        margin-left: 20px;
+    }
+
+    #imagen-recomendaciones-5 {
+        position: absolute;
+        width: 45%;
+        height: 140px;
+        border: solid black 3px;
+        border-radius: 10px;
+        margin-left: 40px;
+        margin-top: 870px;
+    }
+
+    #parrafo-platos {
+        font-size: 20px;
+        margin-top: -290px;
+        margin-left: -100px;
+        color: black;
+    }
+        /*Final Platos de comida individuales / compartir*/
+        /*------------------------------------------------------Final Recomendaciones------------------------------------------------*/  
+
+
+        /*-------------------------------------------------------Inicio quienes somos------------------------------------------------*/  
+    #quienes-somos {
+        color: rgb(0, 0, 0);
+        position: absolute;
+        margin-top: -5px;
+        background-color: white;
+        border-top: solid black 4px;
+        border-bottom: solid black 4px;
+        padding: 550px 170px 310px 220px;
+    }
+
+    #quienes-somos-h2 {
+        font-size: 30px;
+        text-decoration:overline #ff6a00;
+        position: absolute;
+        margin-top: -400px;
+        margin-left: -140px;
+    }
+
+    #quienes-somos-mapa {
+        border-radius: 15%;
+        height: 180px;
+        width: 360px;
+        position: absolute;
+        margin-top: 120px;
+        margin-left: -205px;
+    }
+
+    #quienes-somos-parrafo-1 {
+        font-size: 12px;
+        line-height: 10px;
+        position: absolute;
+        margin-top: -300px;
+        margin-left: -200px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    #quienes-somos-parrafo-2 {
+        font-size: 12px;
+        line-height: 10px;
+        position: absolute;
+        margin-top: -196px;
+        margin-left: -200px; 
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    #quienes-somos-ubicacion {
+        position: absolute;
+        font-size: 15px;
+        margin-top: 30px;
+        margin-left: -200px;
+        font-family: 'Inter Tight', sans-serif;
+        font-family: 'Nunito', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    #quienes-somos-h2-2 {
+        position: absolute;
+        font-size: 22px;
+        margin-top: -30px;
+        margin-left: -160px;
+    }
+
+        /*-------------------------------------------------------Final quienes somos-------------------------------------------------*/  
+    /*------------------------------------------------------------Secciones-----------------------------------------------------------*/
+}
+                                                                                    /*TELEFONO*/
+
+@media only screen and (min-width: 501px) and (max-width: 980px) {            
+
+        /*------------------------------------------------------Inicio Index----------------------------------------------------------*/ 
+    .parrafo-index{
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 600px;
+        margin-left: 50px;
+    }
+
+        /*Fondo Index*/
+    #body-index {
+        background-image: url("imagenes-css/65806.jpeg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size:cover ;
+        background-attachment: fixed;
+    }
+        /*------------------------------------------------------Final Index----------------------------------------------------------*/  
+
+
+    /*------------------------------------------------------------Secciones-----------------------------------------------------------*/
+        /*------------------------------------------------------Inicio Recomendaciones-----------------------------------------------*/  
+    #recomendaciones {
+        background-color: white;
+        padding: 80px 0px 200px 0px;
+        border-top: solid black 4px;
+        border-bottom: solid black 4px;
+        margin-top:335px ;
+    }
+
+    #recomendaciones-2 {
+        margin-top: -500px;
+        margin-left: 200px;
+    }
+
+    #h1-recomendaciones {
+        font-size: 25px;
+        color: black;
+        position:absolute;
+        margin-top: 820px;
+        margin-left: -40px;
+        text-decoration:overline #ff6a00;
+    }
+
+    #imagen-recomendaciones-1 {
+        position: absolute;
+        width: 40%;
+        border: solid black 3px;
+        border-radius: 10px;
+        padding-top: 3px;
+        background-color: white;
+        margin-top: 660px;
+        margin-left: -130px;
+    }
+
+    #imagen-recomendaciones-1:hover{
+        z-index: 1;
+        transition:all 1s ease-in-out ;
+        transform: scale(1.2);
+    }
+
+    #imagen-recomendaciones-2:hover{
+        z-index: 1;
+        transition:all 1s ease-in-out ;
+        transform: scale(1.2);
+    }
+
+    #imagen-recomendaciones-3:hover{
+        z-index: 1;
+        transition:all 1s ease-in-out ;
+        transform: scale(1.2);
+    }
+
+    #imagen-recomendaciones-4:hover{
+        z-index: 1;
+        transition:all 1s ease-in-out ;
+        transform: scale(1.2);
+    }
+
+    #imagen-recomendaciones-5:hover{
+        z-index: 1;
+        transition:all 1s ease-in-out ;
+        transform: scale(1.2);
+    }
+
+    #imagen-recomendaciones-2 {
+        position: absolute;
+        width: 40%;
+        border: solid black 3px;
+        border-radius: 10px;
+        padding-top: 3px;
+        background-color: white;
+        margin-top: 610px;
+        margin-left: 100px;
+    }
+
+    #parrafo-combos {
+        font-size: 25px;
+        position: absolute;
+        margin-top: 626px;
+        margin-left: -40px;
+        color: black;
+    }
+
+        /*Inicio Platos de comida individuales / compartir*/
+
+    #imagen-recomendaciones-3 {
+        width: 55%;
+        height:90px;
+        border: solid black 3px;
+        border-radius: 10px;
+        padding-top: 3px;
+        background-color: white;
+        margin-top: 1090px;
+        margin-left: -100px;
+    }
+
+    #imagen-recomendaciones-4 {
+        position: absolute;
+        width: 40%;
+        height: 150px;
+        border: solid black 3px;
+        border-radius: 10px;
+        margin-top: 1060px;
+        margin-left: 20px;
+    }
+
+    #imagen-recomendaciones-5 {
+        position: absolute;
+        width: 45%;
+        height: 140px;
+        border: solid black 3px;
+        border-radius: 10px;
+        margin-top: 910px;
+    }
+
+    #parrafo-platos {
+        font-size: 20px;
+        margin-top: -290px;
+        margin-left: -100px;
+        color: black;
+    }
+        /*Final Platos de comida individuales / compartir*/
+        /*------------------------------------------------------Final Recomendaciones------------------------------------------------*/  
+
+
+        /*-------------------------------------------------------Inicio quienes somos------------------------------------------------*/  
+    #quienes-somos {
+        color: rgb(0, 0, 0);
+        position: absolute;
+        margin-top: -5px;
+        background-color: white;
+        border-top: solid black 4px;
+        border-bottom: solid black 4px;
+        padding: 550px 290px 310px 220px;
+    }
+
+    #quienes-somos-h2 {
+        font-size: 30px;
+        text-decoration:overline #ff6a00;
+        position: absolute;
+        margin-top: -400px;
+        margin-left: -80px;
+    }
+
+    #quienes-somos-mapa {
+        border-radius: 15%;
+        height: 200px;
+        width: 480px;
+        position: absolute;
+        margin-top: 100px;
+        margin-left: -205px;
+    }
+
+    #quienes-somos-parrafo-1 {
+        font-size: 12px;
+        line-height: 10px;
+        position: absolute;
+        margin-top: -300px;
+        margin-left: -200px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    #quienes-somos-parrafo-2 {
+        font-size: 12px;
+        line-height: 10px;
+        position: absolute;
+        margin-top: -196px;
+        margin-left: -200px; 
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    #quienes-somos-ubicacion {
+        position: absolute;
+        font-size: 15px;
+        margin-top: 30px;
+        margin-left: -200px;
+        font-family: 'Inter Tight', sans-serif;
+        font-family: 'Nunito', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    #quienes-somos-h2-2 {
+        position: absolute;
+        font-size: 25px;
+        position: absolute;
+        margin-top: -40px;
+        margin-left: -50px;
+    }
+
+        /*-------------------------------------------------------Final quienes somos-------------------------------------------------*/  
+    /*------------------------------------------------------------Secciones-----------------------------------------------------------*/
+}
+
+                                                                                    /*ESCRITORIO*/
+@media only screen and (min-width: 991px) {        
+
+        /*------------------------------------------------------Inicio Index----------------------------------------------------------*/ 
+    .parrafo-index{
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 550px;
+        margin-left: 1000px;
+        padding: 30px;
+    }
+
+        /*Fondo Index*/
+    #body-index {
+        background-image: url("imagenes-css/65806.jpeg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size:cover ;
+        background-attachment: fixed;
+    }
+        /*------------------------------------------------------Final Index----------------------------------------------------------*/  
+
+
+        /*------------------------------------------------------------Secciones-----------------------------------------------------------*/
+        /*------------------------------------------------------Inicio Recomendaciones-----------------------------------------------*/  
+    #recomendaciones {
+        background-color: white;
+        padding: 270px 220px 310px 220px;
+        border-top: solid black 4px;
+        border-bottom: solid black 4px;
+        margin-top:335px ;
+        }
+
+    #recomendaciones-2 {
+        margin-top: -500px;
+        margin-left: -100px;
+        }
+
+    #h1-recomendaciones {
+        font-size: 60px;
+        color: black;
+        position:absolute;
+        margin-top: 820px;
+        margin-left: 450px;
+        text-decoration:overline #ff6a00;
+        }
+
+    #imagen-recomendaciones-1 {
+        position: absolute;
+        width: 25%;
+        border: solid black 3px;
+        border-radius: 10px;
+        padding-top: 3px;
+        background-color: white;
+        margin-top: 460px;
+        margin-left: 520px;
+        }
+
+    #imagen-recomendaciones-1:hover{
+        z-index: 1;
+        transition:all 1s ease-in-out ;
+        transform: scale(1.2);
+        }
+
+    #imagen-recomendaciones-2:hover{
+        z-index: 1;
+        transition:all 1s ease-in-out ;
+        transform: scale(1.2);
+        }
+
+    #imagen-recomendaciones-3:hover{
+        z-index: 1;
+        transition:all 1s ease-in-out ;
+        transform: scale(1.2);
+        }
+
+    #imagen-recomendaciones-4:hover{
+        z-index: 1;
+        transition:all 1s ease-in-out ;
+        transform: scale(1.2);
+        }
+
+    #imagen-recomendaciones-5:hover{
+        z-index: 1;
+        transition:all 1s ease-in-out ;
+        transform: scale(1.2);
+        }
+
+    #imagen-recomendaciones-2 {
+        position: absolute;
+        width: 25%;
+        border: solid black 3px;
+        border-radius: 10px;
+        padding-top: 3px;
+        background-color: white;
+        margin-top: 380px;
+        margin-left: 1100px;
+        }
+
+    #parrafo-combos {
+        font-size: 40px;
+        position: absolute;
+        margin-top: 600px;
+        margin-left: 350px;
+        color: black;
+        }
+
+        /*Inicio Platos de comida individuales / compartir*/
+
+    #imagen-recomendaciones-3 {
+        width: 28%;
+        height:200px;
+        border: solid black 3px;
+        border-radius: 10px;
+        padding-top: 3px;
+        background-color: white;
+        margin-top: 960px;
+        margin-left: 110px;
+        }
+
+    #imagen-recomendaciones-4 {
+        position: absolute;
+        width: 30%;
+        height: 240px;
+        border: solid black 3px;
+        border-radius: 10px;
+        margin-top: 935px;
+        margin-left: 620px;
+        }
+
+    #imagen-recomendaciones-5 {
+        position: absolute;
+        width: 25%;
+        height: 250px;
+        border: solid black 3px;
+        border-radius: 10px;
+        margin-top: 930px;
+        margin-left: 100px;
+        }
+
+    #parrafo-platos {
+        font-size: 25px;
+        margin-top: -180px;
+        margin-left: -100px;
+        color: black;
+        }
+        /*Final Platos de comida individuales / compartir*/
+        /*------------------------------------------------------Final Recomendaciones------------------------------------------------*/  
+
+
+        /*-------------------------------------------------------Inicio quienes somos------------------------------------------------*/  
+    #quienes-somos {
+        color: rgb(0, 0, 0);
+        position: absolute;
+        margin-top: -5px;
+        background-color: white;
+        padding: 745px 1703px 220px 200px;
+        border-top: solid black 4px;
+        border-bottom: solid black 4px;
+        }
+
+    #quienes-somos-h2 {
+        font-size: 70px;
+        text-decoration:overline #ff6a00;
+        position: absolute;
+        margin-top: -500px;
+        margin-left: 500px;
+        }
+
+    #quienes-somos-mapa {
+        position: absolute;
+        margin-top: -140px;
+        margin-left: 390px;
+        }
+
+    #quienes-somos-parrafo-1 {
+        font-size: 25px;
+        line-height: 10px;
+        position: absolute;
+        margin-top: -160px;
+        margin-left: -170px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+    #quienes-somos-parrafo-2 {
+        font-size: 25px;
+        line-height: 10px;
+        position: absolute;
+        margin-top: -55px;
+        margin-left: -170px; 
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+    #quienes-somos-ubicacion {
+        position: absolute;
+        font-size: 20px;
+        margin-top: -200px;
+        margin-left: 500px;
+        font-family: 'Inter Tight', sans-serif;
+        font-family: 'Nunito', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        }
+
+    #quienes-somos-h2-2 {
+        position: absolute;
+        font-size: 40px;
+        position: absolute;
+        margin-top: -265px;
+        margin-left: 850px;
+        }
+
+        /*-------------------------------------------------------Final quienes somos-------------------------------------------------*/  
+        /*------------------------------------------------------------Secciones-----------------------------------------------------------*/
+}
+                                                                                    /*ESCRITORIO*/

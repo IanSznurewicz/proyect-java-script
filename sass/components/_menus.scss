@@ -1,0 +1,267 @@
+
+                                                                                    /*TELEFONO*/
+
+    @media only screen and (max-width: 500px) {
+
+    /*------------------------------------------------------------Secciones-----------------------------------------------------------*/
+        /*--------------------------------------------------------Inicio Menu--------------------------------------------------------*/  
+
+        #menu-combos-container{
+            padding:230px;
+            column-width: 500px;
+            margin-bottom: -327px;
+        }
+    
+        .menu-h2 {
+            position: absolute;
+            font-size: 60px;
+            text-align: center;
+            margin-left: 770px;
+            margin-top:140px;
+            text-decoration: overline #ed620c;
+        }
+    
+        #menu-h2-menu {
+            position: absolute;
+            font-size: 50px;
+            margin-top: 20px;
+            margin-left: 250px;
+            color: white;
+        }
+    
+        .h3-menu {
+            position: absolute;
+            font-size: 20px;
+            margin-top: -40px;
+            margin-left: -5px;
+            text-decoration: underline;
+        }
+        .menu-comida-bebida {
+            position: absolute;
+            margin-top: 110px;
+            margin-left: 250px;
+            z-index: 1px;
+            color: rgb(255, 255, 255);
+        }
+    
+        #menu-comida {
+            position: absolute;
+            margin-top: 40px;
+            margin-left: -90px;
+        }
+    
+        #menu-bebidas {
+            margin-top: 40px;
+            margin-left: 70px;
+        }
+    
+        .imagen-menu-1 {
+            position: absolute;
+            margin-left: 100px;
+            width: 400px;
+            height: 530px;
+            border: solid 2px #ed620c;
+            border-radius: 10px;
+            background-repeat: no-repeat;
+        }
+                /*Menu*/
+    
+        #imagen-menu-2 {
+            position: absolute;
+            margin-top: 0px;
+            margin-left: 940px;
+        }
+    
+        #menu-h2-menu-h2 {
+            position: absolute;
+            font-size: 50px;
+            margin-top: 20px;
+            margin-left: 1060px;
+            color: white;
+        }
+    
+        #combos {
+            position: absolute;
+            margin-left: 970px;
+            margin-top: 150px;
+            color: white;
+        }
+            /*--------------------------------------------------------Final Menu--------------------------------------------------------*/  
+}
+                                                                                    /*TELEFONO*/
+
+@media only screen and (min-width: 501px) and (max-width: 980px) {            
+/*------------------------------------------------------------Secciones-----------------------------------------------------------*/
+        /*--------------------------------------------------------Inicio Menu--------------------------------------------------------*/  
+
+    #menu-combos-container{
+        padding:230px;
+        column-width: 500px;
+        margin-bottom: -327px;
+    }
+
+    .menu-h2 {
+        position: absolute;
+        font-size: 60px;
+        text-align: center;
+        margin-left: 770px;
+        margin-top:140px;
+        text-decoration: overline #ed620c;
+    }
+
+    #menu-h2-menu {
+        position: absolute;
+        font-size: 50px;
+        margin-top: 20px;
+        margin-left: 250px;
+        color: white;
+    }
+
+    .h3-menu {
+        position: absolute;
+        font-size: 20px;
+        margin-top: -40px;
+        margin-left: -5px;
+        text-decoration: underline;
+    }
+    .menu-comida-bebida {
+        position: absolute;
+        margin-top: 110px;
+        margin-left: 250px;
+        z-index: 1px;
+        color: rgb(255, 255, 255);
+    }
+
+    #menu-comida {
+        position: absolute;
+        margin-top: 40px;
+        margin-left: -90px;
+    }
+
+    #menu-bebidas {
+        margin-top: 40px;
+        margin-left: 70px;
+    }
+
+    .imagen-menu-1 {
+        position: absolute;
+        margin-left: 100px;
+        width: 400px;
+        height: 530px;
+        border: solid 2px #ed620c;
+        border-radius: 10px;
+        background-repeat: no-repeat;
+    }
+            /*Menu*/
+
+    #imagen-menu-2 {
+        position: absolute;
+        margin-top: 0px;
+        margin-left: 940px;
+    }
+
+    #menu-h2-menu-h2 {
+        position: absolute;
+        font-size: 50px;
+        margin-top: 20px;
+        margin-left: 1060px;
+        color: white;
+    }
+
+    #combos {
+        position: absolute;
+        margin-left: 970px;
+        margin-top: 150px;
+        color: white;
+    }
+        /*--------------------------------------------------------Final Menu--------------------------------------------------------*/  
+}
+
+                                                                                    /*ESCRITORIO*/
+@media only screen and (min-width: 991px) {        
+ /*------------------------------------------------------------Secciones-----------------------------------------------------------*/
+    /*--------------------------------------------------------Inicio Menu--------------------------------------------------------*/  
+
+    #menu-combos-container{
+        padding:230px;
+        column-width: 500px;
+        margin-bottom: -327px;
+    }
+
+    .menu-h2 {
+        position: absolute;
+        font-size: 60px;
+        text-align: center;
+        margin-left: 770px;
+        margin-top:140px;
+        text-decoration: overline #ed620c;
+    }
+
+    #menu-h2-menu {
+        position: absolute;
+        font-size: 50px;
+        margin-top: 20px;
+        margin-left: 250px;
+        color: white;
+    }
+
+    .h3-menu {
+        position: absolute;
+        font-size: 20px;
+        margin-top: -40px;
+        margin-left: -5px;
+        text-decoration: underline;
+    }
+    .menu-comida-bebida {
+        position: absolute;
+        margin-top: 110px;
+        margin-left: 250px;
+        z-index: 1px;
+        color: rgb(255, 255, 255);
+    }
+
+    #menu-comida {
+        position: absolute;
+        margin-top: 40px;
+        margin-left: -90px;
+    }
+
+    #menu-bebidas {
+        margin-top: 40px;
+        margin-left: 70px;
+    }
+
+    .imagen-menu-1 {
+        position: absolute;
+        margin-left: 100px;
+        width: 400px;
+        height: 530px;
+        border: solid 2px #ed620c;
+        border-radius: 10px;
+        background-repeat: no-repeat;
+    }
+            /*Menu*/
+
+    #imagen-menu-2 {
+        position: absolute;
+        margin-top: 0px;
+        margin-left: 940px;
+    }
+
+    #menu-h2-menu-h2 {
+        position: absolute;
+        font-size: 50px;
+        margin-top: 20px;
+        margin-left: 1060px;
+        color: white;
+    }
+
+    #combos {
+        position: absolute;
+        margin-left: 970px;
+        margin-top: 150px;
+        color: white;
+    }
+        /*--------------------------------------------------------Final Menu--------------------------------------------------------*/  
+}
+                                                                                    /*ESCRITORIO*/

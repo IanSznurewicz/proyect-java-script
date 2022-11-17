@@ -1,0 +1,223 @@
+
+                                                        /*TELEFONO*/
+@media only screen and (max-width: 500px) {
+    /*-------------------------------------------------Inicio Header------------------------------------------------------------*/  
+ /*Inicio Titulo Header*/
+ #h1-header{
+     z-index: 1;
+     font-size: 30px;
+     color: white;
+     margin-left: 60px;
+ }
+
+ .imagen-logo {
+     width: 120px;
+     margin-top: -30px;
+     margin-left: -15px;
+     position: absolute;
+ }
+     /*Final Titulo Header*/
+ 
+
+
+ #header {
+     z-index: 1;
+     position: fixed;
+     border-bottom: solid #ed620c 3px;
+     margin-top: -720px;
+     padding-right: 110px;
+     background-color: #050405;
+ }
+
+ #header-2 {
+     z-index: 1;
+     position: fixed;
+     border-bottom: solid #ed620c 3px;
+     padding-bottom: 20px;
+     padding-right: 1440px;
+     background-color: black;
+ }
+
+ #secciones-header-h1 {
+     margin-left: -2000px;
+ }
+
+
+
+     /*Inicio header index / SECCIONES*/
+
+
+ #header-secciones-principal {
+     font-size: 15px;
+     color: white;
+     margin-top: 20px;
+ }
+
+     /*Button Secciones*/
+ #header-secciones-button {
+     color: #fffdff;
+     position: relative;
+     margin-left: 35px;
+     margin-top: 50px;
+     list-style-type:none ;
+ }
+
+ #header-secciones-button-2 {
+     font-size: 15px;
+     position: absolute;
+     margin-top: -80px;
+     margin-left: 200px;
+ }
+     /*Button Secciones*/
+     /*-------------------------------------------------Final Header--------------------------------------------------------------*/  
+}
+                                                        /*TELEFONO*/
+
+        
+@media only screen and (min-width: 501px) and (max-width: 980px) {
+    /*-------------------------------------------------Inicio Header------------------------------------------------------------*/  
+    /*Inicio Titulo Header*/
+    #h1-header{
+        z-index: 1;
+        font-size: 30px;
+        color: white;
+        margin-left: 120px;
+    }
+
+    .imagen-logo {
+        width: 120px;
+        margin-top: -30px;
+        margin-left: -15px;
+        position: absolute;
+    }
+        /*Final Titulo Header*/
+    
+
+
+    #header {
+        z-index: 2;
+        position: fixed;
+        border-bottom: solid #ed620c 3px;
+        margin-top: -600px;
+        padding-right: 165px;
+        background-color: #050405;
+    }
+
+    #header-2 {
+        z-index: 1;
+        position: fixed;
+        border-bottom: solid #ed620c 3px;
+        padding-bottom: 20px;
+        padding-right: 1440px;
+        background-color: black;
+    }
+
+    #secciones-header-h1 {
+        margin-left: -2000px;
+    }
+
+
+
+        /*Inicio header index / SECCIONES*/
+
+
+    #header-secciones-principal {
+        font-size: 18px;
+        color: white;
+        margin-top: 20px;
+    }
+
+        /*Button Secciones*/
+    #header-secciones-button {
+        color: #fffdff;
+        position: relative;
+        margin-left: 30px;
+        margin-top: 50px;
+        list-style-type:none ;
+    }
+
+    #header-secciones-button-2 {
+        position: absolute;
+        margin-top: -80px;
+        margin-left: 320px;
+    }
+        /*Button Secciones*/
+     /*-------------------------------------------------Final Header--------------------------------------------------------------*/  
+}
+
+                                                       /*ESCRITORIO*/
+@media only screen and (min-width: 991px) {
+    /*-------------------------------------------------Inicio Header------------------------------------------------------------*/  
+    /*Inicio Titulo Header*/
+    #h1-header{
+        position: absolute;
+        font-size: 50px;
+        color: white;
+        margin-left: -1050px;
+        margin-top: -5px;
+    }
+
+    .imagen-logo {
+        width: 120px;
+        margin-top: -30px;
+        margin-left: -15px;
+        position: absolute;
+    }
+        /*Final Titulo Header*/
+    
+
+
+    #header {
+        border-bottom: solid #ed620c 3px;
+        margin-top: -555px;
+        z-index: 2;
+        position: fixed;
+    }
+
+        #header-2 {
+        border-bottom: solid #ed620c 3px;
+        padding-bottom: 20px;
+        padding-right: 1440px;
+        background-color: black;
+        z-index: 1;
+    }
+
+    .h1-header-2 {
+        position: absolute;
+        font-size: 50px;
+        color: white;
+        margin-left: 400px;
+        margin-top: 1px;
+    }
+
+    #secciones-header-h1 {
+        margin-left: 100px;
+    }
+
+
+
+        /*Inicio header index / SECCIONES*/
+
+
+    #header-secciones-principal {
+        font-size: 18px;
+        color: white;
+        margin-top: 20px;
+    }
+
+        /*Button Secciones*/
+    #header-secciones-button {
+        color: #fffdff;
+        position: relative;
+        margin-left: 30px;
+        margin-top: 50px;
+        list-style-type:none ;
+    }
+
+    #header-secciones-button-2 {
+        margin-left: 1275px;
+    }
+        /*Button Secciones*/
+        /*-------------------------------------------------Final Header--------------------------------------------------------------*/  
+}
+                                                        /*ESCRITORIO*/

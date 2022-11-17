@@ -1,0 +1,301 @@
+
+                                                                                            /*TELEFONO*/
+@media only screen and (max-width: 500px) {
+
+/*-----------------------------------------------------Footer-------------------------------------------------------*/  
+ .footer-index {
+    position: absolute;
+    padding: 5px;
+    padding-right: 10px;
+    margin-top: 760px;
+    background-color: black;
+}
+
+#footer-index-2 {
+    margin-top: 863px;
+}
+
+.footer-registro {
+    position: absolute;
+    padding: 32px;
+    padding-right: 1888px;
+    margin-top: 315px;
+    background-color: black;
+}
+
+#footer-contactos {
+    margin-top: 800px;
+}
+
+#footer-envios {
+    margin-top: 893px;
+    padding-right:1850px;
+}
+.footer-registro-t-c{
+    margin-top: 792px;
+}
+
+
+#footer-correcto-registro,#footer-correcto-contactos {
+    position: absolute;
+    margin-top: 757px;
+}
+
+#footer-registro {
+    position: absolute;
+    margin-top: 167px;
+}
+
+#redes-sociales{
+    font-size: 10px;
+    position: relative;
+    margin-top: -5px;
+    margin-left: 280px;
+    line-height: 25px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#border-top-redes-sociales {
+    border-top: solid #ed620c 2px;
+}
+
+#logo-instagram {
+    z-index: 1;
+    position: absolute;
+    margin-left: -30px;
+    margin-top: 3px;
+    width: 20px;
+}
+
+
+#logo-facebook {
+    z-index: 1;
+    position: absolute;
+    margin-left: -30px;
+    margin-top: 28px;
+    width: 20px;
+}
+
+#logo-pizz-speed {
+    position: absolute;
+    width: 62px;
+    margin-left: -10px;
+    margin-top: -65px;
+}
+.by-ian-sznurewicz {
+    font-size: 6px;
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 45px;
+    color: white;
+    text-decoration: underline;
+}
+
+.imagen-1{
+    width: 500px;
+    height: 500px;
+}
+        /*-----------------------------------------------------Footer-------------------------------------------------------*/  
+}
+                                                                                            /*TELEFONO*/
+
+@media only screen and (min-width: 501px) and (max-width: 980px) {            
+
+    /*-----------------------------------------------------Footer-------------------------------------------------------*/  
+    .footer-index {
+        position: absolute;
+        padding: 30px;
+        padding-right: 440px;
+        margin-top: 760px;
+        background-color: black;
+    }
+
+    #footer-index-2 {
+        margin-top: 863px;
+    }
+
+    .footer-registro {
+        position: absolute;
+        padding: 32px;
+        padding-right: 1888px;
+        margin-top: 315px;
+        background-color: black;
+    }
+
+    #footer-contactos {
+        margin-top: 800px;
+    }
+
+    #footer-envios {
+        margin-top: 893px;
+        padding-right:1850px;
+    }
+    .footer-registro-t-c{
+        margin-top: 792px;
+    }
+    
+
+    #footer-correcto-registro,#footer-correcto-contactos {
+        position: absolute;
+        margin-top: 757px;
+    }
+
+    #footer-registro {
+        position: absolute;
+        margin-top: 167px;
+    }
+
+    #redes-sociales{
+        font-size: 15px;
+        position: absolute;
+        margin-top: -20px;
+        margin-left: 335px;
+        line-height: 25px;
+        font-family: 'Roboto Mono', monospace;
+    }
+
+    #border-top-redes-sociales {
+        border-top: solid #ed620c 2px;
+    }
+
+    #logo-instagram {
+        z-index: 1;
+        position: absolute;
+        margin-left: -30px;
+        margin-top: 3px;
+        width: 20px;
+    }
+
+
+    #logo-facebook {
+        z-index: 1;
+        position: absolute;
+        margin-left: -30px;
+        margin-top: 28px;
+        width: 20px;
+    }
+
+    #logo-pizz-speed {
+        position: absolute;
+        width: 62px;
+        margin-left: -30px;
+        margin-top: -35px;
+    }
+    .by-ian-sznurewicz {
+        font-size: 8px;
+        position: absolute;
+        margin-top: -22px;
+        margin-left: 30px;
+        color: white;
+        text-decoration: underline;
+    }
+
+    .imagen-1{
+        width: 500px;
+        height: 500px;
+    }
+            /*-----------------------------------------------------Footer-------------------------------------------------------*/  
+}
+
+                                                                                            /*ESCRITORIO*/
+@media only screen and (min-width: 991px) {        
+
+            /*-----------------------------------------------------Footer-------------------------------------------------------*/  
+            .footer-index {
+                position: absolute;
+                padding: 30px;
+                padding-right: 1833.4px;
+                margin-top: 760px;
+                background-color: black;
+            }
+        
+            #footer-index-2 {
+                margin-top: 965px;
+            }
+        
+            .footer-registro {
+                position: absolute;
+                padding: 32px;
+                padding-right: 1888px;
+                margin-top: 315px;
+                background-color: black;
+            }
+        
+            #footer-contactos {
+                margin-top: 800px;
+            }
+        
+            #footer-envios {
+                margin-top: 893px;
+                padding-right:1850px;
+            }
+        
+            #footer-menu {
+                padding-right: 1850px;
+            }
+        
+            .footer-registro-t-c{
+                margin-top: 792px;
+            }
+            
+        
+            #footer-correcto-registro,#footer-correcto-contactos {
+                position: absolute;
+                margin-top: 757px;
+            }
+        
+            #footer-registro {
+                position: absolute;
+                margin-top: 167px;
+            }
+        
+            #redes-sociales{
+                position: absolute;
+                margin-top: -20px;
+                margin-left: 1720px;
+                line-height: 25px;
+                font-family: 'Roboto Mono', monospace;
+            }
+        
+            #border-top-redes-sociales {
+                border-top: solid #ed620c 2px;
+            }
+        
+            #logo-instagram {
+                z-index: 1;
+                position: absolute;
+                margin-left: -30px;
+                margin-top: 3px;
+                width: 20px;
+            }
+        
+            #logo-facebook {
+                z-index: 1;
+                position: absolute;
+                margin-left: -30px;
+                margin-top: 28px;
+                width: 20px;
+            }
+        
+            #logo-pizz-speed {
+                position: absolute;
+                width: 65px;
+                margin-left: -30px;
+                margin-top: -35px;
+            }
+            .by-ian-sznurewicz {
+                font-size: 11px;
+                position: absolute;
+                margin-top: -22px;
+                margin-left: 30px;
+                color: white;
+                text-decoration: underline;
+            }
+        
+            .imagen-1{
+                width: 500px;
+                height: 500px;
+            }
+                    /*-----------------------------------------------------Footer-------------------------------------------------------*/  
+}
+                                                                                            /*ESCRITORIO*/
