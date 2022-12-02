@@ -388,7 +388,7 @@ h6::selection, h5::selection, h4::selection, h3::selection, h2::selection, h1::s
   /*------------------------------------------------------------Secciones-----------------------------------------------------------*/
 }
 /*TELEFONO*/
-@media only screen and (min-width: 501px) and (max-width: 980px) {
+@media only screen and (min-width: 501px) and (max-width: 1024px) {
   /*------------------------------------------------------Inicio Index----------------------------------------------------------*/
   .parrafo-index {
     color: rgb(255, 255, 255);
@@ -412,7 +412,7 @@ h6::selection, h5::selection, h4::selection, h3::selection, h2::selection, h1::s
   /*------------------------------------------------------Inicio Recomendaciones-----------------------------------------------*/
   #recomendaciones {
     background-color: white;
-    padding: 80px 0px 200px 0px;
+    padding: 800px 0px 200px 0px;
     border-top: solid black 4px;
     border-bottom: solid black 4px;
     margin-top: 335px;
@@ -604,17 +604,18 @@ h6::selection, h5::selection, h4::selection, h3::selection, h2::selection, h1::s
   /*------------------------------------------------------Inicio Recomendaciones-----------------------------------------------*/
   #recomendaciones {
     background-color: white;
-    padding: 270px 220px 310px 220px;
     border-top: solid black 4px;
     border-bottom: solid black 4px;
     margin-top: 335px;
+    color: rgb(0, 0, 0);
+    padding: 745px 1703px 220px 200px;
   }
   #recomendaciones-2 {
-    margin-top: -500px;
+    margin-top: -1000px;
     margin-left: -100px;
   }
   #h1-recomendaciones {
-    font-size: 60px;
+    font-size: 65px;
     color: black;
     position: absolute;
     margin-top: 820px;
@@ -675,7 +676,7 @@ h6::selection, h5::selection, h4::selection, h3::selection, h2::selection, h1::s
   }
   /*Inicio Platos de comida individuales / compartir*/
   #imagen-recomendaciones-3 {
-    width: 28%;
+    width: 320px;
     height: 200px;
     border: solid black 3px;
     border-radius: 10px;
@@ -685,27 +686,25 @@ h6::selection, h5::selection, h4::selection, h3::selection, h2::selection, h1::s
     margin-left: 110px;
   }
   #imagen-recomendaciones-4 {
-    position: absolute;
-    width: 30%;
-    height: 240px;
+    width: 430px;
+    height: 260px;
     border: solid black 3px;
     border-radius: 10px;
-    margin-top: 935px;
+    margin-top: -240px;
     margin-left: 620px;
   }
   #imagen-recomendaciones-5 {
-    position: absolute;
-    width: 25%;
-    height: 250px;
+    width: 400px;
+    height: 260px;
     border: solid black 3px;
     border-radius: 10px;
-    margin-top: 930px;
-    margin-left: 100px;
+    margin-top: -290px;
+    margin-left: 1200px;
   }
   #parrafo-platos {
     font-size: 25px;
-    margin-top: -180px;
-    margin-left: -100px;
+    margin-top: -240px;
+    margin-left: -75px;
     color: black;
   }
   /*Final Platos de comida individuales / compartir*/
@@ -1418,9 +1417,9 @@ h6::selection, h5::selection, h4::selection, h3::selection, h2::selection, h1::s
   /*Inicio Inputs*/
   #input-1-contactos {
     display: flex;
-    align-items: center;
-    padding-left: 400px;
-    padding-right: 400px;
+    align-items: flex-start;
+    padding-left: 40px;
+    padding-right: 760px;
   }
   .input-1-contactos-2 {
     padding: 8px;
@@ -1428,7 +1427,6 @@ h6::selection, h5::selection, h4::selection, h3::selection, h2::selection, h1::s
     margin-bottom: 5px;
     border-color: #ff6a00;
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
     color: black;
   }
   #input-2-contactos {
@@ -1477,8 +1475,8 @@ h6::selection, h5::selection, h4::selection, h3::selection, h2::selection, h1::s
   /*Inicio Inputs*/
   #input-1-envios {
     margin-left: 10px;
-    padding-left: 400px;
-    padding-right: 400px;
+    padding-left: 40px;
+    padding-right: 760px;
   }
   #input-2-envios {
     font-size: 20px;
@@ -1498,7 +1496,7 @@ h6::selection, h5::selection, h4::selection, h3::selection, h2::selection, h1::s
     position: absolute;
     font-size: 20px;
     margin-top: -150px;
-    margin-left: 300px;
+    margin-left: 240px;
   }
   #parrafo-formulario-envios {
     width: 250px;
@@ -1525,7 +1523,7 @@ h6::selection, h5::selection, h4::selection, h3::selection, h2::selection, h1::s
   /*------------------------------------------------Final Formulario Envios-----------------------------------------------------*/
   /*-------------------------------------------Inicio "Registro" / inicio de sesion---------------------------------------------*/
   .formulario-registro {
-    width: 330px;
+    width: 440px;
     background-color: rgba(0, 0, 0, 0.9333333333);
     padding: 20px;
     margin: auto;
@@ -1533,10 +1531,11 @@ h6::selection, h5::selection, h4::selection, h3::selection, h2::selection, h1::s
     border-radius: 7px;
     font-family: Arial, Helvetica, sans-serif;
     box-shadow: 18px 14px 30px, -18px 14px 30px, -18px -14px 30px, 18px -14px 30px;
-    height: 400px;
+    height: 500px;
   }
   .formulario-registro h2 {
-    font-size: 40px;
+    margin-bottom: 20px;
+    font-size: 55px;
     color: azure;
     text-decoration: underline;
     line-height: 70px;
@@ -1547,8 +1546,8 @@ h6::selection, h5::selection, h4::selection, h3::selection, h2::selection, h1::s
   }
   /*Inicio Inputs*/
   .input-1 {
-    width: 320px;
-    padding: 5px;
+    width: 430px;
+    padding: 8px;
     border-radius: 7px;
     margin-bottom: 5px;
     border-color: #ff6a00;
@@ -1557,7 +1556,8 @@ h6::selection, h5::selection, h4::selection, h3::selection, h2::selection, h1::s
     color: black;
   }
   .input-2 {
-    width: 90px;
+    width: 140px;
+    height: 25px;
     background-color: #ff6a00;
     border-radius: 4px;
     border-color: #ff6a00;
@@ -1566,11 +1566,11 @@ h6::selection, h5::selection, h4::selection, h3::selection, h2::selection, h1::s
   }
   /*Final Inputs*/
   .formulario-registro p {
-    width: 250px;
+    width: 400px;
     font-family: "Boogaloo", cursive;
     font-family: "Permanent Marker", cursive;
     color: white;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 20px;
   }
   /*Icono Index / conexion "Registro"*/
@@ -1749,7 +1749,7 @@ h6::selection, h5::selection, h4::selection, h3::selection, h2::selection, h1::s
   /*------------------------------------------------------------Secciones-----------------------------------------------------------*/
   /*--------------------------------------------------------Inicio Menu--------------------------------------------------------*/
   #menu-combos-container {
-    padding: 230px;
+    padding: 240px;
     column-width: 500px;
     margin-bottom: -327px;
   }
@@ -2508,8 +2508,8 @@ ul {
   }
   .footer-registro {
     position: absolute;
-    padding: 32px;
-    padding-right: 1888px;
+    padding: 35px;
+    padding-right: 1868.4px;
     margin-top: 315px;
     background-color: black;
   }
@@ -2518,10 +2518,10 @@ ul {
   }
   #footer-envios {
     margin-top: 893px;
-    padding-right: 1850px;
+    padding-right: 1833.4px;
   }
   #footer-menu {
-    padding-right: 1850px;
+    padding-right: 1833.4px;
   }
   .footer-registro-t-c {
     margin-top: 792px;
@@ -2529,10 +2529,6 @@ ul {
   #footer-correcto-registro, #footer-correcto-contactos {
     position: absolute;
     margin-top: 757px;
-  }
-  #footer-registro {
-    position: absolute;
-    margin-top: 167px;
   }
   #redes-sociales {
     position: absolute;
