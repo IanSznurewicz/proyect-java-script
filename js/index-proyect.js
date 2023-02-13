@@ -5,27 +5,32 @@
     let repeate6 = false
     let repeate5 = false
     let repeate4 = false
-    let repeate3 = false                     
-    let repeate2 = false 
+    let repeate3 = false
+    let repeate2 = false                     
     let repeatenya = false
-                                //Sin Funcionalidad de momento
-                                
-   while (!repeate3){
-    break
-    let srIs = prompt("1) Si desea registrarse escriba: Register                                                     2) Si desea iniciar session escriba: Inicio Session")
-    if ((srIs !== "") && (srIs == "Register") || (srIs == "Inicio Session")){
-        repeate3 = true 
-        console.log (`${srIs}`)
-    }else{
-        alert("ERROR: Ingresar una de las opciones otorgadas")
-        continue
+
+
+                                //Conectar a function Inicio Session
+function ri(){
+    while (!repeate3){
+        let srIs = parseInt(prompt(`1) Si desea registrarse seleccione: Register
+2) Si desea iniciar session seleccione: Inicio Session`))
+        if ((srIs !== "") && ((srIs == 1) || (srIs == 2))){
+            repeate3 = true 
+            console.log (`Seleccionado: ${srIs}`)
+        }else{
+            alert("ERROR: Ingresar una de las opciones otorgadas")
+            continue
+        }
     }
-}                                           
-                                //Sin funcionalidad de momento
+}
+ri()
+                                //Conectar a function Inicio Session
 
 
-
+function registroSessionI(){
                                 //Nombre y Apellido   
+    alert("                                         REGISTRO")
     while (!repeatenya){
         let nombreyapellido = prompt("Ingresar Nombre y Apellido (no debe contener numeros)")
         if (nombreyapellido !== ""){
@@ -39,9 +44,8 @@
         }
                                 //Nombre y Apellido
 
-
                                     //Contraseña
-        while (!repeate2){
+    while (!repeate2) {
             let contrasenia = prompt("Ingresar Contraseña") 
             if (contrasenia !== ""){
                 alert("La Contraseña fue ingresada correctamente")
@@ -53,67 +57,115 @@
                 continue
             }
                                     //Contraseña
-        alert(`REGISTRO de session realizado correctamente: 
+                                    
+                                    
+                //LOG- Registro 
+                    const registrosessionlog = {
+                        designado: nombreyapellido, 
+                        clave: contrasenia
+                    }
+                    console.log(registrosessionlog)
+                //LOG- Registro 
 
-        1)Nombre y Apellido ingresados: ${nombreyapellido}. 
-        2)Contraseña ingresada: ${contrasenia}.`)
-        console.log(`Nombre y Apellido ingresados: ${nombreyapellido}. Contraseña ingresada: ${contrasenia}; de la session actual registrada.`)
-            
+                alert(`REGISTRO de session realizado correctamente: 
 
+        
+                1)Nombre y Apellido ingresados: ${registrosessionlog["designado"]}. 
+                2)Contraseña ingresada: ${registrosessionlog["clave"]}.`)
 
+    alert(`REGISTRO COMPLETADO: Bienvenido a PizzSpeed ${registrosessionlog["designado"]}`)
+    console.log(`Registro COMPLETADO: Bienvenido a PizzSpeed ${nombreyapellido}`)
 
-        let resetSession = prompt(`1) Si desea cambiar su registro de session totalmente escriba: SI
-2) Si desea dejarlo como esta actualmente escriba: NO
-3) Si desea modificar unicamente el nombre y apellido escriba: Nombre y Apellido
-4) Si desea modificar unicamente la contraseña escriba: Contraseña`)
+    let resetSession = (prompt(`1) Si desea cambiar su registro de session totalmente
+    2) Si desea dejarlo como esta actualmente
+    3) Si desea modificar unicamente el nombre y apellido
+    4) Si desea modificar unicamente la contraseña`))
 
-            console.log(resetSession)
-        if((resetSession !== "") && ((resetSession == "SI") || (resetSession == "si") || (resetSession == "NO") || (resetSession == "no") || (resetSession == "Nombre y Apellido") || (resetSession == "Contraseña"))){
-            console.log(`Registro COMPLETADO: Bienvenido a PizzSpeed ${nombreyapellido}`)
+        if((resetSession !== "") && ((resetSession == 1) || (resetSession == 2 != iniciosessionset()) || (resetSession == 3) || (resetSession == 4))){
         }else{
             alert("ERROR: Invalido")
+            console.log([`ERROR: Invalido {vacio}`])
         }
+        console.log(resetSession)
     //Inicio de Session------------------------------------------------------------------------------------------------------------------------------------=------------------
-    if((resetSession == "NO") || (resetSession == "no")){
-        alert("REGISTRO COMPLETADO: Bienvenido a PizzSpeed " + nombreyapellido)
-        alert("                                         INICIO DE SESSION")
-        console.log("Registro COMPLETADO: Bienvenido a PizzSpeed")
 
+    
+    function iniciosessionset(){
 
-        while ((!repeate4)){
-            let inicioSession = prompt("Nombre y Apellido")
-            if(inicioSession == nombreyapellido){
-                repeate4 = true
-                console.log(inicioSession)
-            }else{
-                alert("ERROR: Nombre y Apellido incorrectos")
-                continue
-            }
-        
+        if((resetSession == 2) || (srIs == 2)){
+            alert("                                         INICIO DE SESSION")
 
-        while ((!repeate5)){
-            let iniciosession = prompt("Contraseña")
-            if(iniciosession == contrasenia){
-                repeate5 = true
-                console.log(iniciosession)
-            }else{
-                alert("ERROR: Contraseña incorrecta")
-                continue   
-                }if ((iniciosession !== "") !="ESC"){
-                    alert("Inicio de session completado correctamente")
-                    console.log(`INICIO DE SESSION CORRECTO: Nombre y Apellido: ${nombreyapellido}. Contraseña: ${contrasenia}`)
+            while (!repeate4){
+                let inicioSession = prompt("Nombre y Apellido")
+                if(inicioSession == nombreyapellido){
+                    repeate4 = true
                 }else{
-                    alert("Inicio de session completado incorrectamente")
-                    console.log(`INICIO DE SESSION INCORRECTO: Nombre y Apellido: ${inicioSession}. Contraseña: ${iniciosession}`)
+                    alert("ERROR: Nombre y Apellido incorrectos")
                     continue
                 }
+
+                    while (!repeate5){
+                        let iniciosession = prompt("Contraseña")
+                        if(iniciosession == contrasenia){
+                            repeate5 = true
+                        }else{
+                            alert("ERROR: Contraseña incorrecta")
+                            continue   
+                            }
+
+                        class iniciosessionTrue{
+                            constructor(id, naT, cT){
+                                this.id = id, 
+                                this.nombreyapellidoT = naT,
+                                this.contraseñaT = cT
+                            }
+                                iniciosessiontrue(){
+                                    console.log([new Date(), [`Nombre y Apellido correctos:${this.nombreyapellidoT}
+Contraseña correcta: ${this.contraseñaT}`]])
+                                }
+                            }
+                        class iniciosessionFalse{
+                                constructor(id, naF, cF){
+                                    this.id = id,               
+                                    this.nombreyapellidoF = naF, 
+                                    this.contraseñaF = cF
+                                }
+                                    iniciosessionfalse(){
+                                        console.log([new Date(), [`Nombre y Apellido incorrectos:${this.nombreyapellidoF}
+    Contraseña incorrecta: ${this.contraseñaF}`]])
+                                    }
+                                }
+                                if (iniciosession !== ""){
+                                    repeate5 = true
+                                    alert("Inicio de session completado correctamente")
+                                    const nombreYapellido1 = new iniciosessionTrue(1, nombreyapellido)
+                                    const contrasenia1 = new iniciosessionTrue(2,contrasenia)
+                                    const logs = [nombreYapellido1, contrasenia1]
+                                    
+                                    const logs0 = new iniciosessionTrue(logs.length+1, nombreyapellido, contrasenia)
+                                    console.log(logs0)
+                                    logs.push(logs0)
+                                    console.log(logs)
+                                                //Array
+                                    const inicioSessionTrUe = [logs]
+                                    console.log([new Date(), inicioSessionTrUe])
+                                }else{
+                                    alert("Inicio de session completado incorrectamente")
+                                    const iniciosessionF = new iniciosessionFalse(inicioSession, iniciosession)
+                                    console.log([new Date(), iniciosessionF])
+                                    iniciosessionF.iniciosessionfalse()
+                                    continue
+                                }
+
+                        }
+                    }
+                }
             }
-        }
-    }
     //Inicio de Session------------------------------------------------------------------------------------------------------------------------------------=------------------
 
             //--------------------------------------------------------------Opciones Generales--------------------------------------------------------------------------
-    if((resetSession == "SI") || (resetSession == "si")) {
+function opGenerales(){
+    if(resetSession == 1) {
         while (!repeate6){
                                 //Nombre y Apellido
             let nombreyApellido = prompt("Ingresar Nombre y Apellido")
@@ -153,11 +205,13 @@
                         }
                     }  
         //--------------------------------------------------------------Opciones Generales--------------------------------------------------------------------------
+            }
+opGenerales()
                        
 
 
         //-------------------------------------------------------------- RESET- Opciones Individuales---------------------------------------------------------------
-   if (resetSession == "Nombre y Apellido") {
+   if (resetSession == 3) {
     while(!repeate8){
                             //Nombre y Apellido
         let nombreyApellido = prompt("Ingresar Nombre y Apellido")
@@ -177,7 +231,7 @@
         }
     }
 
-    if (resetSession == "Contraseña"){
+    if (resetSession == 4){
     while(!repeate9){
                             //Contraseña
         let contrAsenia = prompt("Ingresar Contraseña")
@@ -194,9 +248,10 @@
                 console.log(`Contraseña adjunta: ${contrAsenia} es invalida`)
             }
                             //Contraseña
-        }
-    }
-            //-------------------------------------------------------------- RESET- Opciones Individuales---------------------------------------------------------------
-          
-                    }   
+                            }
+                        }
+                    }
                 }
+            }
+        registroSessionI() 
+            //-------------------------------------------------------------- RESET- Opciones Individuales---------------------------------------------------------------
